@@ -1,0 +1,48 @@
+Algoritmo sin_titulo
+	
+//	Crea una función EsMultiplo que reciba los dos números pasados por el usuario, validando
+//	que el primer número múltiplo del segundo y devuelva verdadero si el primer número es
+//	múltiplo del segundo, sino es múltiplo que devuelva falso.
+	
+	Definir n1, n2 Como Entero
+	Definir resu Como Logico
+	
+	Escribir "Ingrese su primer numero a consultar si es multiplo del segundo"Sin Saltar
+	Leer n1
+	
+	Escribir ""
+	
+	Escribir "Ingrese su segundo numero"Sin Saltar
+	Leer n2
+	
+	resu=EsMultiplo(n1, n2)
+	
+	Si resu= Verdadero Entonces
+		
+		Escribir n1, " es multiplo de ", n2
+		
+	SiNo
+		
+		Escribir n1, " No es multiplo de ", n2
+		
+		
+	FinSi
+	
+	
+	
+FinAlgoritmo
+
+
+Funcion multi=EsMultiplo(n1, n2)
+	
+	definir multi Como Logico
+	multi=Falso
+	
+	
+	Si n1 mod n2=0 Entonces
+		
+		multi=Verdadero
+		
+	FinSi
+	
+FinFuncion

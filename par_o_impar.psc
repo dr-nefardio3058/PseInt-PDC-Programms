@@ -1,0 +1,22 @@
+Algoritmo par_o_impar
+	
+	Definir num Como Entero
+	Escribir "Ingresar un número, para que vea si es par o impar"
+	Leer num
+	
+	Si (num mod 2) = 0 Entonces
+		
+		Escribir " El número " , num , " es par"
+		
+	SiNo
+		
+		Escribir " El número " , num , " es impar"
+		
+	FinSi
+	
+FinAlgoritmo
+
+//Realizar un programa que pida un número y determine si ese número es par o impar.
+//Mostrar en pantalla un mensaje que indique si el número es par o impar. (para que un
+//número sea par, se debe dividir entre dos y su resto debe ser igual a 0). Nota: investigar
+//la función mod de PseInt.
